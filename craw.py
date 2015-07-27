@@ -39,25 +39,6 @@ for i in liste:
     ac.commit()
 cs.close()
 ac.close()
-    # ac.commit()
-    # url = url.read()
-    # print(firmaad)
-    #
-    # #Regex
-    # p = re.compile("<span class=\"price-arrow-[a-z]+\">([0-9].+|[0-9]+[0-9])<\/span>",re.MULTILINE)
-    # a = re.findall(p,url.decode("cp1254"))
-    # #Yüzde
-    # c = re.compile(" (.[0-9]{0,3},[0-9].*)\% ")
-    # c = re.findall(c,url.decode("cp1254"))
-    #
-    # print(c)
-    # #Endeks
-    # p = re.compile("^([0-9].*)</span>")
-    # p = re.findall(p,a[0])
-    # print(p)
-    # # durum = p[0][0]
-    # # oran = p[0][1]
-    # sorgu = "INSERT INTO %s VALUES(%s,%s,%s)"%(firmaad,tarih,oran,durum)
-    # print(sorgu)
+   
 
 
